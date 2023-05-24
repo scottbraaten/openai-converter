@@ -1,6 +1,7 @@
 console.log("here");
 
 const url = window.location.href;
+console.log(JSON.stringify({ url: url }));
 
 // chrome.runtime.sendMessage({
 //   from: "analyze",
